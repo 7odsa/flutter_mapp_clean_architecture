@@ -5,9 +5,9 @@ import '../../../../../core/errors/exceptions.dart';
 import '../../../../../core/errors/failure.dart';
 import '../../../../../core/params/params.dart';
 import '../../business/repositories/template_repository.dart';
-import '../datasources/template_local_data_source.dart';
-import '../datasources/template_remote_data_source.dart';
-import '../models/template_model.dart';
+import '../datasources/template_local_data_source';
+import '../datasources/template_remote_data_source';
+import '../models/template_model';
 
 class TemplateRepositoryImpl implements TemplateRepository {
   final TemplateRemoteDataSource remoteDataSource;
